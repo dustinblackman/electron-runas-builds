@@ -1,0 +1,23 @@
+{
+  "name": "electron-runas-builds",
+  "version": "0.0.1",
+  "description": "Precompiled runas.node for runas",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "author": "Dustin Blackman",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "electron-rebuild": "^1.4.0",
+    "fs-extra": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "2.13.*",
+    "eslint-config-busbud": "^0.2.2"
+  },
+  "eslintConfig": {
+    "extends": "busbud"
+  }
+}
